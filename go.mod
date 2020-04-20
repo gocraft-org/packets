@@ -1,4 +1,4 @@
-module packets
+module github.com/gocraft-org/packets
 
 go 1.13
 
