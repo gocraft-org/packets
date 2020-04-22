@@ -16,9 +16,9 @@ type PingResponseVersionField struct {
 
 // PingResponsePlayersField is the players field within the ping response data
 type PingResponsePlayersField struct {
-	Max    int                       `json:"max"`
-	Online int                       `json:"online"`
-	Sample PingResponsePlayersSample `json:"sample"`
+	Max    int                         `json:"max"`
+	Online int                         `json:"online"`
+	Sample []PingResponsePlayersSample `json:"sample"`
 }
 
 // PingResponsePlayersSample is an item in the samples array within the players field of the ping response data
