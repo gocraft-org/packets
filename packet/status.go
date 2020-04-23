@@ -35,12 +35,12 @@ func (p *StatusResponsePacket) Decode(r io.Reader) error {
 
 // StatusPongPacket is a Status Pong packet (0x01) sent to the client from the server
 type StatusPongPacket struct {
-	JSONData types.String
+	Payload types.Long
 }
 
 // Encode encodes the packet into the writer
 func (p *StatusPongPacket) Encode(w io.Writer) error {
-	err := p.JSONData.Encode(w)
+	err := p.Payload.Encode(w)
 
 	if err != nil {
 		return err
@@ -51,7 +51,7 @@ func (p *StatusPongPacket) Encode(w io.Writer) error {
 
 // Decode decodes the reader into the packet
 func (p *StatusPongPacket) Decode(r io.Reader) error {
-	err := p.JSONData.Decode(r)
+	err := p.Payload.Decode(r)
 
 	if err != nil {
 		return err
