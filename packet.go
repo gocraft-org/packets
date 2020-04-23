@@ -26,15 +26,15 @@ func (b *Buffer) Write(p []byte) (int, error) {
 
 // Encode encodes the packet buffer into the writer for sending to the client
 func (b *Buffer) Encode(t int, w io.Writer) error {
-	length := types.VarInt(len(b.d))
+	packetType := types.VarInt(t)
+
+	length := types.VarInt(len(b.d) + packetType.Length())
 
 	err := length.Encode(w)
 
 	if err != nil {
 		return err
 	}
-
-	packetType := types.VarInt(t)
 
 	err = packetType.Encode(w)
 

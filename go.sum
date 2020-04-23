@@ -6,3 +6,7 @@ github.com/gocraft-org/protocol v0.0.0-20200419000233-67dc3e086c2f h1:m3TiNWBzDK
 github.com/gocraft-org/protocol v0.0.0-20200419000233-67dc3e086c2f/go.mod h1:ZsmbYlOxkY05WuRJi1uzbVJ5uLDZ5swpJZYe/ihdPPY=
 github.com/gocraft-org/protocol v0.0.0-20200419011959-0d3127934443 h1:5k9wIVLu84ck+5tYb+q+7JsRuBnFaYY8CiOhxXTJLbQ=
 github.com/gocraft-org/protocol v0.0.0-20200419011959-0d3127934443/go.mod h1:ZsmbYlOxkY05WuRJi1uzbVJ5uLDZ5swpJZYe/ihdPPY=
+github.com/gocraft-org/protocol v0.0.0-20200419031900-17623796da98 h1:R+RAY3KkQNLEzoY1VFBk62T/pzlFEPxu/5oTn3pxks4=
+github.com/gocraft-org/protocol v0.0.0-20200419031900-17623796da98/go.mod h1:ZsmbYlOxkY05WuRJi1uzbVJ5uLDZ5swpJZYe/ihdPPY=
+github.com/gocraft-org/protocol v0.0.0-20200423021527-d3e533bfff43 h1:KL7pOcPyWFOOYr1vJIgY4ZCyaFcYtY9iYu0aIifUrCE=
+github.com/gocraft-org/protocol v0.0.0-20200423021527-d3e533bfff43/go.mod h1:ZsmbYlOxkY05WuRJi1uzbVJ5uLDZ5swpJZYe/ihdPPY=
